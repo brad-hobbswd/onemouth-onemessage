@@ -1,6 +1,6 @@
 # One Mouth, One Message
 
-![One Mouth, One Message Banner](banner.jpg)
+![One Mouth, One Message Banner](6B5507C8-6C56-4187-A659-252817A5040F.png)
 
 ## Words carry weight.
 
