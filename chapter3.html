@@ -36,13 +36,13 @@ body{
 font-family:Arial,sans-serif;
 background:var(--bg);
 color:white;
-line-height:2;
+line-height:1.8;
 
 }
 
 .hero{
 
-padding:140px 8%;
+padding:90px 8% 70px;
 
 text-align:center;
 
@@ -66,7 +66,7 @@ color:var(--red);
 
 letter-spacing:3px;
 
-margin-bottom:20px;
+margin-bottom:12px;
 
 font-weight:bold;
 
@@ -81,7 +81,7 @@ clamp(
 5rem
 );
 
-margin-bottom:20px;
+margin-bottom:15px;
 
 }
 
@@ -95,7 +95,7 @@ font-size:1.1rem;
 
 .content{
 
-padding:100px 10%;
+padding:60px 10%;
 
 max-width:950px;
 
@@ -105,7 +105,7 @@ margin:auto;
 
 .content p{
 
-margin-bottom:35px;
+margin-bottom:22px;
 
 font-size:1.1rem;
 
@@ -115,9 +115,9 @@ color:#ededed;
 
 .scripture{
 
-padding:40px;
+padding:28px;
 
-margin:50px 0;
+margin:35px 0;
 
 background:#151515;
 
@@ -126,11 +126,13 @@ border-left:
 
 font-style:italic;
 
+line-height:1.9;
+
 }
 
 .navigation{
 
-padding:70px 8%;
+padding:40px 8%;
 
 display:flex;
 
@@ -156,11 +158,20 @@ color:white;
 
 font-weight:bold;
 
+transition:.4s;
+
+}
+
+.navigation a:hover{
+
+transform:
+translateY(-5px);
+
 }
 
 footer{
 
-padding:70px 8%;
+padding:45px 8%;
 
 background:black;
 
@@ -179,7 +190,7 @@ justify-content:center;
 
 gap:25px;
 
-margin-top:30px;
+margin-top:20px;
 
 flex-wrap:wrap;
 
@@ -191,11 +202,47 @@ color:white;
 
 text-decoration:none;
 
+transition:.4s;
+
 }
 
 .footer-links a:hover{
 
 color:var(--red);
+
+}
+
+@media(max-width:768px){
+
+.hero{
+
+padding:70px 6% 50px;
+
+}
+
+.content{
+
+padding:45px 7%;
+
+}
+
+.content p{
+
+margin-bottom:18px;
+
+}
+
+.hero h1{
+
+font-size:2.7rem;
+
+}
+
+.navigation{
+
+justify-content:center;
+
+}
 
 }
 
@@ -229,12 +276,13 @@ Restraint sometimes carries more power than response.
 </section>
 
 
-
 <section class="content">
 
 <div class="scripture">
 
 "Death and life are in the power of the tongue."
+
+<br><br>
 
 Proverbs 18:21
 
@@ -439,7 +487,6 @@ He learned that silence, when surrendered, can become testimony.
 </section>
 
 
-
 <section class="navigation">
 
 <a href="chapter2.html">
@@ -461,7 +508,6 @@ Next
 </a>
 
 </section>
-
 
 
 <footer>
