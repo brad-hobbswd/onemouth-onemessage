@@ -36,13 +36,13 @@ body{
 font-family:Arial,sans-serif;
 background:var(--bg);
 color:var(--white);
-line-height:2;
+line-height:1.8;
 
 }
 
 .hero{
 
-padding:140px 8%;
+padding:90px 8% 70px;
 
 text-align:center;
 
@@ -69,7 +69,7 @@ clamp(
 5rem
 );
 
-margin-bottom:20px;
+margin-bottom:15px;
 
 }
 
@@ -85,7 +85,7 @@ color:var(--soft);
 
 .content{
 
-padding:100px 10%;
+padding:60px 10%;
 
 max-width:950px;
 
@@ -95,9 +95,9 @@ margin:auto;
 
 .content h2{
 
-font-size:2.4rem;
+font-size:2.2rem;
 
-margin-bottom:40px;
+margin-bottom:25px;
 
 color:var(--red);
 
@@ -105,7 +105,7 @@ color:var(--red);
 
 .content p{
 
-margin-bottom:35px;
+margin-bottom:22px;
 
 font-size:1.1rem;
 
@@ -115,9 +115,9 @@ color:#e5e5e5;
 
 .quote{
 
-padding:40px;
+padding:28px;
 
-margin:50px 0;
+margin:35px 0;
 
 border-left:
 4px solid var(--red);
@@ -126,11 +126,13 @@ background:#151515;
 
 font-style:italic;
 
+line-height:1.9;
+
 }
 
 .navigation{
 
-padding:80px 8%;
+padding:40px 8%;
 
 display:flex;
 
@@ -156,11 +158,20 @@ color:white;
 
 font-weight:bold;
 
+transition:.4s;
+
+}
+
+.navigation a:hover{
+
+transform:
+translateY(-5px);
+
 }
 
 footer{
 
-padding:70px 8%;
+padding:45px 8%;
 
 text-align:center;
 
@@ -169,7 +180,7 @@ border-top:
 
 background:black;
 
-margin-top:60px;
+margin-top:30px;
 
 }
 
@@ -181,7 +192,7 @@ justify-content:center;
 
 gap:25px;
 
-margin-top:30px;
+margin-top:20px;
 
 flex-wrap:wrap;
 
@@ -193,11 +204,55 @@ color:white;
 
 text-decoration:none;
 
+transition:.4s;
+
 }
 
 .footer-links a:hover{
 
 color:var(--red);
+
+}
+
+@media(max-width:768px){
+
+.hero{
+
+padding:70px 6% 50px;
+
+}
+
+.content{
+
+padding:45px 7%;
+
+}
+
+.content p{
+
+margin-bottom:18px;
+
+}
+
+.content h2{
+
+font-size:1.9rem;
+
+margin-bottom:20px;
+
+}
+
+.hero h1{
+
+font-size:2.7rem;
+
+}
+
+.navigation{
+
+justify-content:center;
+
+}
 
 }
 
@@ -255,6 +310,8 @@ Each chapter in this journey follows ordinary people facing moments where conver
 
 "Death and life are in the power of the tongue."
 
+<br><br>
+
 Proverbs 18:21
 
 </div>
@@ -276,7 +333,6 @@ What message follows your mouth?
 </section>
 
 
-
 <section class="navigation">
 
 <a href="contents.html">
@@ -285,7 +341,6 @@ Back to Contents
 
 </a>
 
-
 <a href="chapter1.html">
 
 Begin Chapter One
@@ -293,7 +348,6 @@ Begin Chapter One
 </a>
 
 </section>
-
 
 
 <footer>
@@ -321,7 +375,6 @@ Chapter One
 </div>
 
 </footer>
-
 
 </body>
 
