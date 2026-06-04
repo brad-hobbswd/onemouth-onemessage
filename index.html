@@ -496,37 +496,17 @@ Open Table of Contents
 </section>
 
 
-<footer>
+<div id="footer"></div>
 
-<h3>
-
-One Mouth, One Message
-
-</h3>
-
-<p>
-
-Every voice carries influence. Every conversation leaves something behind.
-
-</p>
-
-<div class="footer-links">
-
-<a href="index.html">
-Home
-</a>
-
-<a href="contents.html">
-Contents
-</a>
-
-<a href="chapter1.html">
-Begin Reading
-</a>
-
-</div>
-
-</footer>
+<script>
+fetch("footer.html")
+.then(response => response.text())
+.then(data => {
+document.getElementById(
+"footer"
+).innerHTML = data;
+});
+</script>
 
 </body>
 
